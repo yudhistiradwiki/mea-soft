@@ -1,0 +1,215 @@
+/*---------------------------------------------------------global costumization---------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-bg {
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+
+.shadow-all {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.p-small {
+    font-size: 12px;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.p-medium {
+    font-size: 14px;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.notification-tag {
+    width: max-content;
+    height: 20px;
+    background-color: #F0F3FF;
+    border: 2px solid #B1C5F6;
+    font-size: 10px;
+}
+
+.notification-tag-true {
+    width: max-content;
+    height: 20px;
+    background-color: #D2F1DD;
+    border: 2px solid #8EDCA9;
+    font-size: 10px;
+}
+
+.notification-tag-false {
+    width: max-content;
+    height: 20px;
+    background-color: #F9D1CC;
+    border: 2px solid #F08C80;
+    font-size: 10px;
+}
+
+.notification-icon {
+    width: 14px;
+    height: 14px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.disabled {
+    pointer-events: none !important;
+}
+
+
+
+/*----------------------------------------------------navbar component costumization----------------------------------------------------*/
+.navbar-component .nav-border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.navbar-component .logo {
+    width: 100%;
+}
+
+.navbar-component .navbar-brand {
+    width: 200px;
+}
+
+.navbar-component .navbar-brand:hover {
+    width: 200px;
+}
+
+.navbar-component .account-icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-component .nav-item, .dropdown-item {
+    font-size: 14px;
+}
+
+.navbar-component .nav-link {
+    cursor: pointer;
+}
+
+.navbar-component .nav-link:hover {
+    color: #297209;
+}
+
+.navbar-component .dropdown-item:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+}
+
+.navbar-component .dropdown-item:focus {
+    background-image: linear-gradient(to left, #297209, #297209);
+}
+
+.navbar-component .page-current {
+    color: #297209;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    pointer-events: none;
+}
+
+
+
+/*------------------------------------------cctv list button component component costumization------------------------------------------*/
+.cctvlistbutton-component .btn-success:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    font-size: 10px !important;
+}
+
+.cctvlistbutton-component .btn-success {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.cctvlistbutton-component .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+    pointer-events: none;
+}
+
+
+
+/*----------------------------------------notification filter component component costumization-----------------------------------------*/
+.notificationfilter-component .btn-success:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-success {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-success:focus {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+    pointer-events: none;
+}
+
+
+
+/*-------------------------------------------------live monitoring page costumization---------------------------------------------------*/
+.livemonitoring-body .notification-list {
+    height: 338px;
+}
+
+.livemonitoring-body .image-border {
+    border: solid #297209;
+}
+
+.livemonitoring-body .cam-navigation {
+    height: 32px;
+}
+
+.livemonitoring-body .navigation:hover {
+    color: #297209;
+    margin-top: 4px;
+}
+
+.livemonitoring-body .shadow-all {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+
